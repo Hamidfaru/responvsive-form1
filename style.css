@@ -1,0 +1,48 @@
+body{
+    background: #4c0404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+h1{
+    position: absolute;
+    top: 50px;
+  right: 40%;
+  background: #bbb2b2;
+font-weight: 100px;
+
+
+}
+form{
+    padding: 10px;
+    width: 80%;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #532828;
+}
+form input{
+    border: none;
+    outline:none;
+    padding: 5px 10px;
+    width: 200px;
+    color: beige;
+    background: #311f1f;
+    flex-grow: 1;
+}
+button{
+    border: none;
+    padding: 5px 10px;
+    flex-grow: 1;
+    background: #392323;
+    color: aliceblue;
+    cursor: pointer;
+    width: 30px;
+
+}
+button:hover{
+    background: #476551;
+    width: 35px;
+}
